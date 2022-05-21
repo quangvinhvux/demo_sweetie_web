@@ -40,13 +40,13 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener("load", function () {
-        navigator.serviceWorker.register('https://quangvinhvux.github.io/demo_sweetie_web/firebase-messaging-sw.js');
+        navigator.serviceWorker.register('/firebase-messaging-sw.js');
       });
     }
   </script>
 
   <script>
-    var serviceWorkerVersion = '2589359631';
+    var serviceWorkerVersion = '602108362';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
