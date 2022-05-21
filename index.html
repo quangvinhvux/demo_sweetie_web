@@ -11,7 +11,7 @@
     For more details:
     * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
   -->
-  <base href="demo_sweetie_web/">
+  <base href="/demo_sweetie_web">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -54,7 +54,7 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = 'main.dart.js';
+      scriptTag.src = 'demo_sweetie_web/main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
