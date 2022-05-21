@@ -25,15 +25,12 @@
 
   <title>modeltalk_web</title>
   <link rel="manifest" href="manifest.json">
-  <link href="main.js" type="text/javascript">
   <script src="splash/splash.js"></script>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
   <link rel="stylesheet" type="text/css" href="splash/style.css">
 
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
-  <script src="script.js" type="text/javascript"></script>
-
 </head>
 <body>
 <img src="splash/img/logo.png" class="center" />
@@ -57,7 +54,7 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = 'demo_sweetie_web/main.dart.js';
+      scriptTag.src = 'main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
